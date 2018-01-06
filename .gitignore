@@ -37,3 +37,7 @@ sites/simpletest
 
 # Ignore SimpleTest multi-site environment.
 # simpletest
+
+# Ignore theme sass cache
+themes/milestone/.sass-cache
+
