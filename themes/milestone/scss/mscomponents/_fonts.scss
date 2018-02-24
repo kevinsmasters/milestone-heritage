@@ -1,0 +1,25 @@
+body {
+  font-family: $ptsans;
+}
+h1.page-header {
+  font-size: 25px;
+  font-family: $lato;
+  font-weight: 700;
+}
+section.block-views-blockservices-homepage-block-nodes-block-2,
+section.block-views-blockservices-homepage-block-nodes-block-3,
+section.block-views-blockservices-homepage-block-nodes-block-4 {
+  h3 {
+    font-family: $lato;
+    font-weight: 600;
+  }
+  .views-field-title {
+    font-family: $lato;
+    font-size: 18px;
+    font-weight: 500;
+    a {
+      color: $dkgray;
+      text-decoration: none;
+    }
+  }
+}

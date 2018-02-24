@@ -1,0 +1,68 @@
+.banner-header {
+  background-color: $copper;
+  color: $white;
+  a {
+    color: $white;
+  }
+  .search-block-form {
+    .btn {
+      background-color: $white;
+      color: $gray;
+      border-color: $ltgray;
+    }
+  }
+}
+header.navbar.navbar-inverse {
+  background: $teal;
+  .navbar-nav {
+    & > li {
+      & > a {
+        color: $dkgray;
+      }
+    }
+    & > li.active {
+      & > a {
+        background: darken($teal, 20%);
+        color: $white;
+      }
+    }
+    & > li.open {
+      & > a {
+        background: darken($teal, 20%);
+        color: $white;
+      }
+    }
+  }
+}
+h1.page-header {
+  color: $copper;
+}
+footer.footer {
+  background-color: $copper;
+  color: $white;
+  a {
+    color: $white;
+  }
+}
+
+section.block-views-blockservices-homepage-block-nodes-block-2 {
+  h3 {
+    &:before {
+      color: $crmcolor;
+    }
+  }
+}
+section.block-views-blockservices-homepage-block-nodes-block-3 {
+  h3 {
+    &:before {
+      color: $hiscolor;
+    }
+  }
+}
+section.block-views-blockservices-homepage-block-nodes-block-4 {
+  h3 {
+    &:before {
+      color: $prescolor;
+    }
+  }
+}

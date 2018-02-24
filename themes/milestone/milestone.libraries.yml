@@ -2,6 +2,10 @@ global-styling:
   css:
     theme:
       css/style.css: {}
+  fonts:
+    css:
+      theme:
+        '//fonts.googleapis.com/css?family=Lato:400,700|PT+Sans' : { type: external, minified: true }
 
 bootstrap-scripts:
   js:

@@ -1,0 +1,7 @@
+// clear all the things
+@mixin clearme {
+  content: "";
+  display: table;
+  clear: both;
+  height: 0;
+}

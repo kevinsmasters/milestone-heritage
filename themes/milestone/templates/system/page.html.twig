@@ -104,7 +104,12 @@
     </header>
   {% endblock %}
 {% endif %}
-
+{# Highlighted #}
+{% if page.highlighted %}
+  {% block highlighted %}
+    <div class="highlighted">{{ page.highlighted }}</div>
+  {% endblock %}
+{% endif %}
 {# Main #}
 {% block main %}
   <div role="main" class="main-container {{ container }} js-quickedit-main-content">
@@ -129,13 +134,6 @@
         ]
       %}
       <section{{ content_attributes.addClass(content_classes) }}>
-
-        {# Highlighted #}
-        {% if page.highlighted %}
-          {% block highlighted %}
-            <div class="highlighted">{{ page.highlighted }}</div>
-          {% endblock %}
-        {% endif %}
 
         {# Help #}
         {% if page.help %}
