@@ -5,3 +5,8 @@
  *
  * Place your custom PHP code in this file.
  */
+ function milestone_preprocess_html(&$variables) {
+   if (\Drupal::routeMatch()->getRouteName() == 'entity.taxonomy_term.canonical') {
+     $variables['term_id'] = \Drupal::routeMatch()->getRawParameter('taxonomy_term');
+   }
+ }

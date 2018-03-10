@@ -9636,7 +9636,7 @@ header.navbar.navbar-inverse .navbar-nav > li.open > a {
 }
 
 /* line 37, ../scss/mscomponents/_colors.scss */
-h1.page-header {
+.path-frontpage h1.page-header {
   color: #a4492f;
 }
 
@@ -9674,17 +9674,22 @@ body {
 h1.page-header {
   font-size: 25px;
   font-family: "Lato", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
 }
 
-/* line 12, ../scss/mscomponents/_fonts.scss */
+/* line 9, ../scss/mscomponents/_fonts.scss */
+h2 {
+  font-family: lato;
+}
+
+/* line 15, ../scss/mscomponents/_fonts.scss */
 section.block-views-blockservices-homepage-block-nodes-block-2 h3,
 section.block-views-blockservices-homepage-block-nodes-block-3 h3,
 section.block-views-blockservices-homepage-block-nodes-block-4 h3 {
   font-family: "Lato", sans-serif;
   font-weight: 600;
 }
-/* line 16, ../scss/mscomponents/_fonts.scss */
+/* line 19, ../scss/mscomponents/_fonts.scss */
 section.block-views-blockservices-homepage-block-nodes-block-2 .views-field-title,
 section.block-views-blockservices-homepage-block-nodes-block-3 .views-field-title,
 section.block-views-blockservices-homepage-block-nodes-block-4 .views-field-title {
@@ -9692,7 +9697,7 @@ section.block-views-blockservices-homepage-block-nodes-block-4 .views-field-titl
   font-size: 18px;
   font-weight: 500;
 }
-/* line 20, ../scss/mscomponents/_fonts.scss */
+/* line 23, ../scss/mscomponents/_fonts.scss */
 section.block-views-blockservices-homepage-block-nodes-block-2 .views-field-title a,
 section.block-views-blockservices-homepage-block-nodes-block-3 .views-field-title a,
 section.block-views-blockservices-homepage-block-nodes-block-4 .views-field-title a {
@@ -9917,4 +9922,34 @@ section.block-views-blockservices-homepage-block-nodes-block-3 .views-row .views
 section.block-views-blockservices-homepage-block-nodes-block-4 .views-row .views-field-body {
   margin: 8px 0;
   padding: 0 10px;
+}
+
+/* line 171, ../scss/mscomponents/_layout.scss */
+.path-taxonomy h1.page-header {
+  font-size: 30px;
+}
+/* line 173, ../scss/mscomponents/_layout.scss */
+.path-taxonomy h1.page-header:before {
+  content: '\25A0';
+  padding-right: 8px;
+}
+
+/* line 179, ../scss/mscomponents/_layout.scss */
+#block-views-block-featured-project-block-1 {
+  width: 508px;
+  float: right;
+  margin-left: 120px;
+  z-index: 500;
+}
+/* line 184, ../scss/mscomponents/_layout.scss */
+#block-views-block-featured-project-block-1 h2.block-title {
+  margin-top: 0;
+}
+
+/* line 188, ../scss/mscomponents/_layout.scss */
+.clearTerm {
+  width: 100%;
+  clear: both;
+  height: 5px;
+  margin: 1px 0;
 }
