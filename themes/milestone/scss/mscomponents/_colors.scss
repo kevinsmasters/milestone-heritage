@@ -66,3 +66,24 @@ section.block-views-blockservices-homepage-block-nodes-block-4 {
     }
   }
 }
+.path-taxonomy.term-id-1 {
+  h1.page-header {
+    &:before {
+      color: $crmcolor;
+    }
+  }
+}
+.path-taxonomy.term-id-2 {
+  h1.page-header {
+    &:before {
+      color: $hiscolor;
+    }
+  }
+}
+.path-taxonomy.term-id-3 {
+  h1.page-header {
+    &:before {
+      color: $prescolor;
+    }
+  }
+}

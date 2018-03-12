@@ -101,7 +101,7 @@ footer.footer {
 
       float: left;
     }
-    ul.footer {
+    ul.menu--footer {
       border-top: none;
       margin: 0 0 65px;
       padding: 0;
@@ -113,6 +113,10 @@ footer.footer {
         }
         &:first-child > a {
           padding-left: 0;
+        }
+        &:hover > a {
+          background: none;
+          text-decoration: underline;
         }
       }
     }
@@ -173,6 +177,25 @@ section.block-views-blockservices-homepage-block-nodes-block-4 {
     &:before {
       content: '\25A0';
       padding-right: 8px;
+    }
+  }
+  .view-header + .view-content {
+    .views-row {
+      width: 50%;
+      float: left;
+      &:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .views-field-field-photos {
+        float: left;
+      }
+      .views-field-body {
+        width: 300px;
+        float: left;
+        padding-left: 20px;
+      }
     }
   }
 }
