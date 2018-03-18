@@ -5,3 +5,25 @@
   clear: both;
   height: 0;
 }
+
+@mixin projectView {
+  width: 50%;
+  float: left;
+  padding-bottom: 20px;
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .views-field-field-photos {
+    float: left;
+  }
+  .views-field-body {
+    width: 300px;
+    float: left;
+    padding-left: 20px;
+    h3 {
+      margin-top: 0;
+    }
+  }
+}

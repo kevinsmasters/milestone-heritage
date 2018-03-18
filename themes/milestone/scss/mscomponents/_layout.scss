@@ -103,7 +103,7 @@ footer.footer {
     }
     ul.menu--footer {
       border-top: none;
-      margin: 0 0 65px;
+      margin: 0 0 38px;
       padding: 0;
       li {
         float: left;
@@ -179,24 +179,17 @@ section.block-views-blockservices-homepage-block-nodes-block-4 {
       padding-right: 8px;
     }
   }
+  .clearTerm + h2 {
+    margin-top: 50px;
+    margni-bottom: 20px;
+  }
   .view-header + .view-content {
     .views-row {
-      width: 50%;
-      float: left;
-      &:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
-      .views-field-field-photos {
-        float: left;
-      }
-      .views-field-body {
-        width: 300px;
-        float: left;
-        padding-left: 20px;
-      }
+      @include projectView;
     }
+  }
+  .feed-icons {
+    display: none;
   }
 }
 #block-views-block-featured-project-block-1 {
@@ -207,10 +200,53 @@ section.block-views-blockservices-homepage-block-nodes-block-4 {
   h2.block-title {
     margin-top: 0;
   }
+  .views-field-body {
+    width: 468px;
+    margin-top: 15px;
+  }
 }
 .clearTerm {
   width: 100%;
   clear:both;
   height: 5px;
   margin: 1px 0;
+}
+// Project Detail page
+article.project {
+  .field--name-field-photos {
+    float: left;
+    width: 467px;
+    padding-bottom: 20px;
+    .field--item + .field--item {
+      margin-top: 20px;
+    }
+  }
+  .field--name-body,
+  .field--name-field-testimonial {
+    float: right;
+    width: 580px;
+    margin-right: 25px;
+    padding-bottom: 20px;
+  }
+  .field--name-field-testimonial {
+    .field--label {
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+    .field--name-field-testimony {
+      font-style: italic;
+    }
+    .field--name-field-testimony-name {
+      margin-top: 10px;
+      &:before {
+        content: "- ";
+      }
+    }
+  }
+}
+
+.view-related-projects {
+  .views-row {
+    @include projectView;
+  }
 }

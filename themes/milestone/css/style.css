@@ -9695,16 +9695,23 @@ h1.page-header {
 /* line 9, ../scss/mscomponents/_fonts.scss */
 h2 {
   font-family: lato;
+  font-size: 24px;
 }
 
-/* line 15, ../scss/mscomponents/_fonts.scss */
+/* line 13, ../scss/mscomponents/_fonts.scss */
+h3 {
+  font-family: lato;
+  font-size: 20px;
+}
+
+/* line 20, ../scss/mscomponents/_fonts.scss */
 section.block-views-blockservices-homepage-block-nodes-block-2 h3,
 section.block-views-blockservices-homepage-block-nodes-block-3 h3,
 section.block-views-blockservices-homepage-block-nodes-block-4 h3 {
   font-family: "Lato", sans-serif;
   font-weight: 600;
 }
-/* line 19, ../scss/mscomponents/_fonts.scss */
+/* line 24, ../scss/mscomponents/_fonts.scss */
 section.block-views-blockservices-homepage-block-nodes-block-2 .views-field-title,
 section.block-views-blockservices-homepage-block-nodes-block-3 .views-field-title,
 section.block-views-blockservices-homepage-block-nodes-block-4 .views-field-title {
@@ -9712,7 +9719,7 @@ section.block-views-blockservices-homepage-block-nodes-block-4 .views-field-titl
   font-size: 18px;
   font-weight: 500;
 }
-/* line 23, ../scss/mscomponents/_fonts.scss */
+/* line 28, ../scss/mscomponents/_fonts.scss */
 section.block-views-blockservices-homepage-block-nodes-block-2 .views-field-title a,
 section.block-views-blockservices-homepage-block-nodes-block-3 .views-field-title a,
 section.block-views-blockservices-homepage-block-nodes-block-4 .views-field-title a {
@@ -9855,7 +9862,7 @@ footer.footer .region-footer #block-milestone-footer {
 /* line 104, ../scss/mscomponents/_layout.scss */
 footer.footer .region-footer ul.menu--footer {
   border-top: none;
-  margin: 0 0 65px;
+  margin: 0 0 38px;
   padding: 0;
 }
 /* line 108, ../scss/mscomponents/_layout.scss */
@@ -9953,44 +9960,126 @@ section.block-views-blockservices-homepage-block-nodes-block-4 .views-row .views
   content: '\25A0';
   padding-right: 8px;
 }
-/* line 183, ../scss/mscomponents/_layout.scss */
+/* line 182, ../scss/mscomponents/_layout.scss */
+.path-taxonomy .clearTerm + h2 {
+  margin-top: 50px;
+  margni-bottom: 20px;
+}
+/* line 187, ../scss/mscomponents/_layout.scss */
 .path-taxonomy .view-header + .view-content .views-row {
   width: 50%;
   float: left;
+  padding-bottom: 20px;
 }
-/* line 186, ../scss/mscomponents/_layout.scss */
+/* line 13, ../scss/mscomponents/_mixins.scss */
 .path-taxonomy .view-header + .view-content .views-row:after {
   content: "";
   display: table;
   clear: both;
 }
-/* line 191, ../scss/mscomponents/_layout.scss */
+/* line 18, ../scss/mscomponents/_mixins.scss */
 .path-taxonomy .view-header + .view-content .views-row .views-field-field-photos {
   float: left;
 }
-/* line 194, ../scss/mscomponents/_layout.scss */
+/* line 21, ../scss/mscomponents/_mixins.scss */
 .path-taxonomy .view-header + .view-content .views-row .views-field-body {
   width: 300px;
   float: left;
   padding-left: 20px;
 }
+/* line 25, ../scss/mscomponents/_mixins.scss */
+.path-taxonomy .view-header + .view-content .views-row .views-field-body h3 {
+  margin-top: 0;
+}
+/* line 191, ../scss/mscomponents/_layout.scss */
+.path-taxonomy .feed-icons {
+  display: none;
+}
 
-/* line 202, ../scss/mscomponents/_layout.scss */
+/* line 195, ../scss/mscomponents/_layout.scss */
 #block-views-block-featured-project-block-1 {
   width: 508px;
   float: right;
   margin-left: 120px;
   z-index: 500;
 }
-/* line 207, ../scss/mscomponents/_layout.scss */
+/* line 200, ../scss/mscomponents/_layout.scss */
 #block-views-block-featured-project-block-1 h2.block-title {
   margin-top: 0;
 }
+/* line 203, ../scss/mscomponents/_layout.scss */
+#block-views-block-featured-project-block-1 .views-field-body {
+  width: 468px;
+  margin-top: 15px;
+}
 
-/* line 211, ../scss/mscomponents/_layout.scss */
+/* line 208, ../scss/mscomponents/_layout.scss */
 .clearTerm {
   width: 100%;
   clear: both;
   height: 5px;
   margin: 1px 0;
+}
+
+/* line 216, ../scss/mscomponents/_layout.scss */
+article.project .field--name-field-photos {
+  float: left;
+  width: 467px;
+  padding-bottom: 20px;
+}
+/* line 220, ../scss/mscomponents/_layout.scss */
+article.project .field--name-field-photos .field--item + .field--item {
+  margin-top: 20px;
+}
+/* line 224, ../scss/mscomponents/_layout.scss */
+article.project .field--name-body,
+article.project .field--name-field-testimonial {
+  float: right;
+  width: 580px;
+  margin-right: 25px;
+  padding-bottom: 20px;
+}
+/* line 232, ../scss/mscomponents/_layout.scss */
+article.project .field--name-field-testimonial .field--label {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+/* line 236, ../scss/mscomponents/_layout.scss */
+article.project .field--name-field-testimonial .field--name-field-testimony {
+  font-style: italic;
+}
+/* line 239, ../scss/mscomponents/_layout.scss */
+article.project .field--name-field-testimonial .field--name-field-testimony-name {
+  margin-top: 10px;
+}
+/* line 241, ../scss/mscomponents/_layout.scss */
+article.project .field--name-field-testimonial .field--name-field-testimony-name:before {
+  content: "- ";
+}
+
+/* line 249, ../scss/mscomponents/_layout.scss */
+.view-related-projects .views-row {
+  width: 50%;
+  float: left;
+  padding-bottom: 20px;
+}
+/* line 13, ../scss/mscomponents/_mixins.scss */
+.view-related-projects .views-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 18, ../scss/mscomponents/_mixins.scss */
+.view-related-projects .views-row .views-field-field-photos {
+  float: left;
+}
+/* line 21, ../scss/mscomponents/_mixins.scss */
+.view-related-projects .views-row .views-field-body {
+  width: 300px;
+  float: left;
+  padding-left: 20px;
+}
+/* line 25, ../scss/mscomponents/_mixins.scss */
+.view-related-projects .views-row .views-field-body h3 {
+  margin-top: 0;
 }
