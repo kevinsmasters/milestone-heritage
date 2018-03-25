@@ -1,5 +1,6 @@
 body {
   font-family: $ptsans;
+  font-size: 16px;
 }
 h1.page-header {
   font-size: 25px;
@@ -13,6 +14,21 @@ h2 {
 h3 {
   font-family: lato;
   font-size: 20px;
+}
+#block-headercontact {
+  p {
+    font-size: 18px;
+    line-height: 1.3;
+  }
+}
+#block-milestone-main-menu {
+  font-size: 18px;
+  .dropdown-menu {
+    font-size: 16px;
+  }
+}
+.path-frontpage h1.page-header {
+  font-size: 28px;
 }
 section.block-views-blockservices-homepage-block-nodes-block-2,
 section.block-views-blockservices-homepage-block-nodes-block-3,

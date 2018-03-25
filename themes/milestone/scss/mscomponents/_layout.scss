@@ -8,7 +8,8 @@ body {
     margin: 0 auto;
     float: none;
     .logo {
-      margin-left: 100px;
+      margin-left: 0;
+      margin-bottom: 23px;
       width: 250px;
       display: block;
       img {
@@ -19,7 +20,7 @@ body {
     .search-block-form {
       width: 177px;
       float: right;
-      margin-right: 123px;
+      margin-right: 0;
       margin-top: 15px;
       .form-group {
         margin-bottom: 5px;
@@ -38,7 +39,7 @@ body {
     #block-headercontact {
       width: 177px;
       float: right;
-      margin-right: 123px;
+      margin-right: 0;
       clear: right;
     }
   }
@@ -72,7 +73,7 @@ header.navbar.container {
   }
 }
 #block-milestone-main-menu {
-  text-align: center;
+
   ul.navbar-nav {
     display: inline-block;
     float: none;
@@ -137,14 +138,14 @@ footer.footer {
   article.page {
     text-align: center;
     max-width: 66%;
-    margin: 0 auto;
+    margin: 0 auto 40px;
   }
 }
 // home page services blocks
 section.block-views-blockservices-homepage-block-nodes-block-2,
 section.block-views-blockservices-homepage-block-nodes-block-3,
 section.block-views-blockservices-homepage-block-nodes-block-4 {
-  width: 33%;
+  width: 30%;
   float: left;
   h3 {
     text-align: center;
@@ -169,7 +170,10 @@ section.block-views-blockservices-homepage-block-nodes-block-4 {
     }
   }
 }
-
+section.block-views-blockservices-homepage-block-nodes-block-2,
+section.block-views-blockservices-homepage-block-nodes-block-3 {
+  margin-left: 5%;
+}
 // features landing page
 .path-taxonomy {
   h1.page-header {

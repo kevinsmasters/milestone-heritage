@@ -9618,7 +9618,7 @@ p:last-child,
 
 /* line 15, ../scss/mscomponents/_colors.scss */
 header.navbar.navbar-inverse {
-  background: #4faea8;
+  background: #ffffff;
 }
 /* line 19, ../scss/mscomponents/_colors.scss */
 header.navbar.navbar-inverse .navbar-nav > li > a {
@@ -9683,35 +9683,56 @@ section.block-views-blockservices-homepage-block-nodes-block-4 h3:before {
 /* line 1, ../scss/mscomponents/_fonts.scss */
 body {
   font-family: "PT Sans", sans-serif;
+  font-size: 16px;
 }
 
-/* line 4, ../scss/mscomponents/_fonts.scss */
+/* line 5, ../scss/mscomponents/_fonts.scss */
 h1.page-header {
   font-size: 25px;
   font-family: "Lato", sans-serif;
   font-weight: 500;
 }
 
-/* line 9, ../scss/mscomponents/_fonts.scss */
+/* line 10, ../scss/mscomponents/_fonts.scss */
 h2 {
   font-family: lato;
   font-size: 24px;
 }
 
-/* line 13, ../scss/mscomponents/_fonts.scss */
+/* line 14, ../scss/mscomponents/_fonts.scss */
 h3 {
   font-family: lato;
   font-size: 20px;
 }
 
-/* line 20, ../scss/mscomponents/_fonts.scss */
+/* line 19, ../scss/mscomponents/_fonts.scss */
+#block-headercontact p {
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+/* line 24, ../scss/mscomponents/_fonts.scss */
+#block-milestone-main-menu {
+  font-size: 18px;
+}
+/* line 26, ../scss/mscomponents/_fonts.scss */
+#block-milestone-main-menu .dropdown-menu {
+  font-size: 16px;
+}
+
+/* line 30, ../scss/mscomponents/_fonts.scss */
+.path-frontpage h1.page-header {
+  font-size: 28px;
+}
+
+/* line 36, ../scss/mscomponents/_fonts.scss */
 section.block-views-blockservices-homepage-block-nodes-block-2 h3,
 section.block-views-blockservices-homepage-block-nodes-block-3 h3,
 section.block-views-blockservices-homepage-block-nodes-block-4 h3 {
   font-family: "Lato", sans-serif;
   font-weight: 600;
 }
-/* line 24, ../scss/mscomponents/_fonts.scss */
+/* line 40, ../scss/mscomponents/_fonts.scss */
 section.block-views-blockservices-homepage-block-nodes-block-2 .views-field-title,
 section.block-views-blockservices-homepage-block-nodes-block-3 .views-field-title,
 section.block-views-blockservices-homepage-block-nodes-block-4 .views-field-title {
@@ -9719,7 +9740,7 @@ section.block-views-blockservices-homepage-block-nodes-block-4 .views-field-titl
   font-size: 18px;
   font-weight: 500;
 }
-/* line 28, ../scss/mscomponents/_fonts.scss */
+/* line 44, ../scss/mscomponents/_fonts.scss */
 section.block-views-blockservices-homepage-block-nodes-block-2 .views-field-title a,
 section.block-views-blockservices-homepage-block-nodes-block-3 .views-field-title a,
 section.block-views-blockservices-homepage-block-nodes-block-4 .views-field-title a {
@@ -9744,58 +9765,59 @@ body {
 }
 /* line 10, ../scss/mscomponents/_layout.scss */
 .banner-header .col-sm-12 .logo {
-  margin-left: 100px;
+  margin-left: 0;
+  margin-bottom: 23px;
   width: 250px;
   display: block;
 }
-/* line 14, ../scss/mscomponents/_layout.scss */
+/* line 15, ../scss/mscomponents/_layout.scss */
 .banner-header .col-sm-12 .logo img {
   max-width: 100%;
   display: block;
 }
-/* line 19, ../scss/mscomponents/_layout.scss */
+/* line 20, ../scss/mscomponents/_layout.scss */
 .banner-header .col-sm-12 .search-block-form {
   width: 177px;
   float: right;
-  margin-right: 123px;
+  margin-right: 0;
   margin-top: 15px;
 }
-/* line 24, ../scss/mscomponents/_layout.scss */
+/* line 25, ../scss/mscomponents/_layout.scss */
 .banner-header .col-sm-12 .search-block-form .form-group {
   margin-bottom: 5px;
 }
-/* line 27, ../scss/mscomponents/_layout.scss */
+/* line 28, ../scss/mscomponents/_layout.scss */
 .banner-header .col-sm-12 .search-block-form input.form-control {
   height: 30px;
   border-radius: 0;
 }
-/* line 31, ../scss/mscomponents/_layout.scss */
+/* line 32, ../scss/mscomponents/_layout.scss */
 .banner-header .col-sm-12 .search-block-form .btn {
   font-size: 13px;
   padding: 5px 10px;
   border-radius: 0;
   border-left: none;
 }
-/* line 38, ../scss/mscomponents/_layout.scss */
+/* line 39, ../scss/mscomponents/_layout.scss */
 .banner-header .col-sm-12 #block-headercontact {
   width: 177px;
   float: right;
-  margin-right: 123px;
+  margin-right: 0;
   clear: right;
 }
 
-/* line 47, ../scss/mscomponents/_layout.scss */
+/* line 48, ../scss/mscomponents/_layout.scss */
 #block-homeheaderimage {
   float: none;
   max-width: 100%;
 }
-/* line 50, ../scss/mscomponents/_layout.scss */
+/* line 51, ../scss/mscomponents/_layout.scss */
 #block-homeheaderimage img {
   display: block;
   max-width: 100%;
 }
 
-/* line 55, ../scss/mscomponents/_layout.scss */
+/* line 56, ../scss/mscomponents/_layout.scss */
 header.navbar.container {
   width: 100%;
   max-width: 100%;
@@ -9803,38 +9825,34 @@ header.navbar.container {
   border-radius: 0;
   border: none;
 }
-/* line 61, ../scss/mscomponents/_layout.scss */
+/* line 62, ../scss/mscomponents/_layout.scss */
 header.navbar.container .navbar-header {
   width: 1170px;
   float: none;
   margin: 0 auto;
 }
-/* line 67, ../scss/mscomponents/_layout.scss */
+/* line 68, ../scss/mscomponents/_layout.scss */
 header.navbar.container .navbar-header .nav > li > a {
   padding: 15px 20px;
 }
 
-/* line 74, ../scss/mscomponents/_layout.scss */
-#block-milestone-main-menu {
-  text-align: center;
-}
-/* line 76, ../scss/mscomponents/_layout.scss */
+/* line 77, ../scss/mscomponents/_layout.scss */
 #block-milestone-main-menu ul.navbar-nav {
   display: inline-block;
   float: none;
 }
-/* line 79, ../scss/mscomponents/_layout.scss */
+/* line 80, ../scss/mscomponents/_layout.scss */
 #block-milestone-main-menu ul.navbar-nav > li {
   display: inline-block;
   float: none;
 }
 
-/* line 85, ../scss/mscomponents/_layout.scss */
+/* line 86, ../scss/mscomponents/_layout.scss */
 .main-container {
   margin-top: 20px;
 }
 
-/* line 88, ../scss/mscomponents/_layout.scss */
+/* line 89, ../scss/mscomponents/_layout.scss */
 .region-content:after {
   content: "";
   display: table;
@@ -9842,108 +9860,108 @@ header.navbar.container .navbar-header .nav > li > a {
   height: 0;
 }
 
-/* line 91, ../scss/mscomponents/_layout.scss */
+/* line 92, ../scss/mscomponents/_layout.scss */
 footer.footer {
   width: 100%;
   padding: 0;
   border-top: none;
   padding-bottom: 80px;
 }
-/* line 96, ../scss/mscomponents/_layout.scss */
+/* line 97, ../scss/mscomponents/_layout.scss */
 footer.footer .region-footer {
   width: 1170px;
   margin: 0 auto;
   padding-top: 60px;
 }
-/* line 100, ../scss/mscomponents/_layout.scss */
+/* line 101, ../scss/mscomponents/_layout.scss */
 footer.footer .region-footer #block-milestone-footer {
   float: left;
 }
-/* line 104, ../scss/mscomponents/_layout.scss */
+/* line 105, ../scss/mscomponents/_layout.scss */
 footer.footer .region-footer ul.menu--footer {
   border-top: none;
   margin: 0 0 38px;
   padding: 0;
 }
-/* line 108, ../scss/mscomponents/_layout.scss */
+/* line 109, ../scss/mscomponents/_layout.scss */
 footer.footer .region-footer ul.menu--footer li {
   float: left;
 }
-/* line 110, ../scss/mscomponents/_layout.scss */
+/* line 111, ../scss/mscomponents/_layout.scss */
 footer.footer .region-footer ul.menu--footer li a {
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 114, ../scss/mscomponents/_layout.scss */
+/* line 115, ../scss/mscomponents/_layout.scss */
 footer.footer .region-footer ul.menu--footer li:first-child > a {
   padding-left: 0;
 }
-/* line 117, ../scss/mscomponents/_layout.scss */
+/* line 118, ../scss/mscomponents/_layout.scss */
 footer.footer .region-footer ul.menu--footer li:hover > a {
   background: none;
   text-decoration: underline;
 }
-/* line 123, ../scss/mscomponents/_layout.scss */
+/* line 124, ../scss/mscomponents/_layout.scss */
 footer.footer .region-footer #block-footercontactinfo {
   float: right;
   width: 290px;
 }
-/* line 127, ../scss/mscomponents/_layout.scss */
+/* line 128, ../scss/mscomponents/_layout.scss */
 footer.footer .region-footer #block-footercopyright {
   clear: left;
   float: left;
 }
 
-/* line 134, ../scss/mscomponents/_layout.scss */
+/* line 135, ../scss/mscomponents/_layout.scss */
 .path-frontpage .page-header {
   text-align: center;
 }
-/* line 137, ../scss/mscomponents/_layout.scss */
+/* line 138, ../scss/mscomponents/_layout.scss */
 .path-frontpage article.page {
   text-align: center;
   max-width: 66%;
-  margin: 0 auto;
+  margin: 0 auto 40px;
 }
 
-/* line 144, ../scss/mscomponents/_layout.scss */
+/* line 145, ../scss/mscomponents/_layout.scss */
 section.block-views-blockservices-homepage-block-nodes-block-2,
 section.block-views-blockservices-homepage-block-nodes-block-3,
 section.block-views-blockservices-homepage-block-nodes-block-4 {
-  width: 33%;
+  width: 30%;
   float: left;
 }
-/* line 149, ../scss/mscomponents/_layout.scss */
+/* line 150, ../scss/mscomponents/_layout.scss */
 section.block-views-blockservices-homepage-block-nodes-block-2 h3,
 section.block-views-blockservices-homepage-block-nodes-block-3 h3,
 section.block-views-blockservices-homepage-block-nodes-block-4 h3 {
   text-align: center;
 }
-/* line 151, ../scss/mscomponents/_layout.scss */
+/* line 152, ../scss/mscomponents/_layout.scss */
 section.block-views-blockservices-homepage-block-nodes-block-2 h3:before,
 section.block-views-blockservices-homepage-block-nodes-block-3 h3:before,
 section.block-views-blockservices-homepage-block-nodes-block-4 h3:before {
   content: '\25A0';
   padding-right: 8px;
 }
-/* line 156, ../scss/mscomponents/_layout.scss */
+/* line 157, ../scss/mscomponents/_layout.scss */
 section.block-views-blockservices-homepage-block-nodes-block-2 .views-row,
 section.block-views-blockservices-homepage-block-nodes-block-3 .views-row,
 section.block-views-blockservices-homepage-block-nodes-block-4 .views-row {
   text-align: center;
 }
-/* line 158, ../scss/mscomponents/_layout.scss */
+/* line 159, ../scss/mscomponents/_layout.scss */
 section.block-views-blockservices-homepage-block-nodes-block-2 .views-row .views-field-title,
 section.block-views-blockservices-homepage-block-nodes-block-3 .views-row .views-field-title,
 section.block-views-blockservices-homepage-block-nodes-block-4 .views-row .views-field-title {
   margin: 15px 0;
 }
-/* line 162, ../scss/mscomponents/_layout.scss */
+/* line 163, ../scss/mscomponents/_layout.scss */
 section.block-views-blockservices-homepage-block-nodes-block-2 .views-row .views-field-field-photos img,
 section.block-views-blockservices-homepage-block-nodes-block-3 .views-row .views-field-field-photos img,
 section.block-views-blockservices-homepage-block-nodes-block-4 .views-row .views-field-field-photos img {
   margin: 0 auto;
 }
-/* line 166, ../scss/mscomponents/_layout.scss */
+/* line 167, ../scss/mscomponents/_layout.scss */
 section.block-views-blockservices-homepage-block-nodes-block-2 .views-row .views-field-body,
 section.block-views-blockservices-homepage-block-nodes-block-3 .views-row .views-field-body,
 section.block-views-blockservices-homepage-block-nodes-block-4 .views-row .views-field-body {
@@ -9951,21 +9969,27 @@ section.block-views-blockservices-homepage-block-nodes-block-4 .views-row .views
   padding: 0 10px;
 }
 
-/* line 175, ../scss/mscomponents/_layout.scss */
+/* line 173, ../scss/mscomponents/_layout.scss */
+section.block-views-blockservices-homepage-block-nodes-block-2,
+section.block-views-blockservices-homepage-block-nodes-block-3 {
+  margin-left: 5%;
+}
+
+/* line 179, ../scss/mscomponents/_layout.scss */
 .path-taxonomy h1.page-header {
   font-size: 30px;
 }
-/* line 177, ../scss/mscomponents/_layout.scss */
+/* line 181, ../scss/mscomponents/_layout.scss */
 .path-taxonomy h1.page-header:before {
   content: '\25A0';
   padding-right: 8px;
 }
-/* line 182, ../scss/mscomponents/_layout.scss */
+/* line 186, ../scss/mscomponents/_layout.scss */
 .path-taxonomy .clearTerm + h2 {
   margin-top: 50px;
   margni-bottom: 20px;
 }
-/* line 187, ../scss/mscomponents/_layout.scss */
+/* line 191, ../scss/mscomponents/_layout.scss */
 .path-taxonomy .view-header + .view-content .views-row {
   width: 50%;
   float: left;
@@ -9991,29 +10015,29 @@ section.block-views-blockservices-homepage-block-nodes-block-4 .views-row .views
 .path-taxonomy .view-header + .view-content .views-row .views-field-body h3 {
   margin-top: 0;
 }
-/* line 191, ../scss/mscomponents/_layout.scss */
+/* line 195, ../scss/mscomponents/_layout.scss */
 .path-taxonomy .feed-icons {
   display: none;
 }
 
-/* line 195, ../scss/mscomponents/_layout.scss */
+/* line 199, ../scss/mscomponents/_layout.scss */
 #block-views-block-featured-project-block-1 {
   width: 508px;
   float: right;
   margin-left: 120px;
   z-index: 500;
 }
-/* line 200, ../scss/mscomponents/_layout.scss */
+/* line 204, ../scss/mscomponents/_layout.scss */
 #block-views-block-featured-project-block-1 h2.block-title {
   margin-top: 0;
 }
-/* line 203, ../scss/mscomponents/_layout.scss */
+/* line 207, ../scss/mscomponents/_layout.scss */
 #block-views-block-featured-project-block-1 .views-field-body {
   width: 468px;
   margin-top: 15px;
 }
 
-/* line 208, ../scss/mscomponents/_layout.scss */
+/* line 212, ../scss/mscomponents/_layout.scss */
 .clearTerm {
   width: 100%;
   clear: both;
@@ -10021,17 +10045,17 @@ section.block-views-blockservices-homepage-block-nodes-block-4 .views-row .views
   margin: 1px 0;
 }
 
-/* line 216, ../scss/mscomponents/_layout.scss */
+/* line 220, ../scss/mscomponents/_layout.scss */
 article.project .field--name-field-photos {
   float: left;
   width: 467px;
   padding-bottom: 20px;
 }
-/* line 220, ../scss/mscomponents/_layout.scss */
+/* line 224, ../scss/mscomponents/_layout.scss */
 article.project .field--name-field-photos .field--item + .field--item {
   margin-top: 20px;
 }
-/* line 224, ../scss/mscomponents/_layout.scss */
+/* line 228, ../scss/mscomponents/_layout.scss */
 article.project .field--name-body,
 article.project .field--name-field-testimonial {
   float: right;
@@ -10039,25 +10063,25 @@ article.project .field--name-field-testimonial {
   margin-right: 25px;
   padding-bottom: 20px;
 }
-/* line 232, ../scss/mscomponents/_layout.scss */
+/* line 236, ../scss/mscomponents/_layout.scss */
 article.project .field--name-field-testimonial .field--label {
   font-size: 18px;
   margin-bottom: 15px;
 }
-/* line 236, ../scss/mscomponents/_layout.scss */
+/* line 240, ../scss/mscomponents/_layout.scss */
 article.project .field--name-field-testimonial .field--name-field-testimony {
   font-style: italic;
 }
-/* line 239, ../scss/mscomponents/_layout.scss */
+/* line 243, ../scss/mscomponents/_layout.scss */
 article.project .field--name-field-testimonial .field--name-field-testimony-name {
   margin-top: 10px;
 }
-/* line 241, ../scss/mscomponents/_layout.scss */
+/* line 245, ../scss/mscomponents/_layout.scss */
 article.project .field--name-field-testimonial .field--name-field-testimony-name:before {
   content: "- ";
 }
 
-/* line 249, ../scss/mscomponents/_layout.scss */
+/* line 253, ../scss/mscomponents/_layout.scss */
 .view-related-projects .views-row {
   width: 50%;
   float: left;
