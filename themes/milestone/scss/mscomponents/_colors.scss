@@ -44,25 +44,33 @@ footer.footer {
     color: $white;
   }
 }
-
+section.block-views-blockservices-homepage-block-nodes-block-2,
+section.block-views-blockservices-homepage-block-nodes-block-3,
+section.block-views-blockservices-homepage-block-nodes-block-4 {
+  h3 {
+    a {
+      color: $dkgray;
+    }
+  }
+}
 section.block-views-blockservices-homepage-block-nodes-block-2 {
   h3 {
     &:before {
-      color: $crmcolor;
+      background-color: $crmcolor;
     }
   }
 }
 section.block-views-blockservices-homepage-block-nodes-block-3 {
   h3 {
     &:before {
-      color: $hiscolor;
+      background-color: $hiscolor;
     }
   }
 }
 section.block-views-blockservices-homepage-block-nodes-block-4 {
   h3 {
     &:before {
-      color: $prescolor;
+      background-color: $prescolor;
     }
   }
 }

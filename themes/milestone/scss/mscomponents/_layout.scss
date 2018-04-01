@@ -148,14 +148,17 @@ section.block-views-blockservices-homepage-block-nodes-block-4 {
   width: 30%;
   float: left;
   h3 {
-    text-align: center;
+    //text-align: center;
     &:before {
-      content: '\25A0';
-      padding-right: 8px;
+      content: ' ';
+      margin-right: 8px;
+      height: 20px;
+      width: 30px;
+      padding: 0 15px;
     }
   }
   .views-row {
-    text-align: center;
+    //text-align: center;
     .views-field-title {
       margin: 15px 0;
     }
@@ -166,8 +169,19 @@ section.block-views-blockservices-homepage-block-nodes-block-4 {
     }
     .views-field-body {
       margin: 8px 0;
-      padding: 0 10px;
+      //padding: 0 10px;
     }
+  }
+}
+
+#block-views-block-featured-project-block-2 {
+  clear: both;
+  .views-field-field-photos {
+    float: left;
+    margin-right: 20px;
+  }
+  &:after {
+    @include clearme;
   }
 }
 section.block-views-blockservices-homepage-block-nodes-block-2,
